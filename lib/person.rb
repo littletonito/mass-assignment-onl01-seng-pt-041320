@@ -1,6 +1,6 @@
 class Person
 
-  attr_accessor
+  attr_accessor 
   
   def initialize(attributes)
      attributes.each {|keys, value| self.send("#{keys}=", value)}
