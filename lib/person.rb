@@ -1,9 +1,11 @@
 class Person
 
-#   attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, 
-# :wrist_size, :glove_size, :pant_length, :pant_width
+# #  :name, :birthday, :hair_color, :eye_color, :height, 
+# :weight, :handed, :complexion, :t_shirt_size, 
+# :wrist_size, :glove_size, :pant_length, :pant_width attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, 
+# # :wrist_size, :glove_size, :pant_length, :pant_width
 
-#   def initialize(attributes)
-#     attributes.each {|keys, value| self.send("#{keys}=", value)}
-  end
+# #   def initialize(attributes)
+# #     attributes.each {|keys, value| self.send("#{keys}=", value)}
+#   end
 end
